@@ -1,0 +1,92 @@
+/* Resetting some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting a background color for the body */
+body {
+    background-color: white;
+    font-family: 'calibri', 'Times New Roman';
+    line-height: 1.6;
+}
+
+/* Styling the header section */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: darkslategrey;
+    color: white;
+}
+
+/* Styling the main heading */
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Styling the introductory paragraph */
+p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+/* Styling the sections */
+section {
+    margin: 20px;
+}
+
+/* Styling the contact details section */
+#ContactDetails p {
+    margin-bottom: 10px;
+}
+
+/* Styling the skills section */
+#Skills ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+/* Styling the education, work experience, and additional information sections */
+#Education, #WorkExperience, footer {
+    margin-top: 20px;
+ 
+}
+
+/* Styling the footer section */
+footer {
+    background-color: darkslategrey;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Styling the search section */
+#search-form {
+    margin-top: 20px;
+}
+
+/* Styling the feedback section */
+#Feedback {
+    margin-top: 20px;
+}
+
+/* Styling the feedback form */
+form {
+    display: grid;
+    gap: 10px;
+}
+
+/* Adding some styles to the submit button */
+input[type="submit"] {
+    padding: 10px;
+    background-color: darkslategrey;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+/* Adding hover effect to the submit button */
+input[type="submit"]:hover {
+    background-color: darkslategrey;
+}
